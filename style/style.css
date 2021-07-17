@@ -28,6 +28,9 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 24px;
+}
 .hero {
   text-align: center;
   background: var(--primary-color);
@@ -42,7 +45,6 @@ h1 {
 }
 
 .hero h2 {
-  font-size: 24px;
   font-family: var(--primary-font-family);
 }
 
@@ -58,7 +60,7 @@ h1 {
 .projects {
   text-align: center;
   padding: 30px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .projects-blurb {
@@ -72,10 +74,6 @@ img {
   border-radius: 4px;
 }
 
-.project-paragraphs {
-  padding: 0 100px;
-}
-
 .btn-view-project {
   border: 1px solid var(--secondary-color);
   border-radius: 4px;
@@ -83,6 +81,21 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-view-project:hover {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-info {
+  border: 3px var(--secondary-color) solid;
+  padding: 20px 100px;
+  border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -110,5 +123,9 @@ img {
 
   .projects-blurb {
     padding: 30px 0 0 0;
+  }
+
+  .project-info {
+    border: none;
   }
 }
