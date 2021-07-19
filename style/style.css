@@ -61,15 +61,13 @@ h2 {
   text-align: center;
   padding: 30px;
   font-size: 18px;
+  padding: 20px 100px;
 }
 
 .projects-blurb {
   text-align: center;
   padding: 30px;
   font-size: 20px;
-}
-.project-info {
-  padding: 20px 100px;
 }
 
 img {
@@ -95,9 +93,21 @@ img {
   padding: 15px 30px;
 }
 
+.about-page {
+  padding: 160px 20px;
+}
+
+.about-page h1 {
+  font-size: 64px;
+}
+
+.about-page h2 {
+  font-size: 18px;
+}
+
 @media (max-width: 768px) {
   h1 {
-    font-size: 50px;
+    font-size: 44px;
   }
   h2 {
     padding: 25px;
@@ -117,7 +127,16 @@ img {
   .projects-blurb {
     padding: 30px 0 0 0;
   }
-  .project-info {
+  .projects {
     padding: 0;
+  }
+
+  .about-page {
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .about-page h1 {
+    font-size: 44px;
   }
 }
