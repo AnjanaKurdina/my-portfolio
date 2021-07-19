@@ -48,7 +48,7 @@ h2 {
   font-family: var(--primary-font-family);
 }
 
-.btn-hero {
+.btn-branding {
   background: var(--secondary-color);
   border-radius: 4px;
   color: white;
@@ -93,16 +93,29 @@ img {
   padding: 15px 30px;
 }
 
-.about-page {
+.content-container {
   padding: 160px 20px;
 }
 
-.about-page h1 {
+.content-container h1 {
   font-size: 64px;
 }
 
-.about-page h2 {
+.content-container h2 {
   font-size: 18px;
+}
+
+.content {
+  text-align: center;
+  padding: 0;
+}
+
+.content h3 {
+  font-size: 24px;
+}
+
+.content p {
+  font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -131,12 +144,12 @@ img {
     padding: 0;
   }
 
-  .about-page {
+  .content-container {
     text-align: center;
     padding: 30px 10px;
   }
 
-  .about-page h1 {
+  .content-container h1 {
     font-size: 44px;
   }
 }
