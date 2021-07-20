@@ -10,7 +10,7 @@
   --branding-color: #0dceda;
   --primary-font-family: "Lora", serif;
   --heading-font-family: "Otomanopee One", sans-serif;
-  --border: 3px solid var(--branding-color);
+  --border: 4px solid var(--branding-color);
 }
 
 body {
@@ -36,7 +36,7 @@ h2 {
   text-align: center;
   background: var(--background-color);
   padding: 160px 20px;
-  border: 10px var(--branding-color) solid;
+  border: var(--border);
   border-radius: 4px;
 }
 
@@ -133,12 +133,12 @@ h1.welcome {
 
 .my-name {
   font-weight: bold;
-  border: 3px solid var(--branding-color);
+  border: var(--border);
   padding: 0 5px;
 }
 
 .contact-page {
-  border: 5px solid var(--branding-color);
+  border: var(--border);
   padding: 30px;
 }
 
