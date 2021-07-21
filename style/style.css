@@ -142,6 +142,21 @@ h1.welcome {
   padding: 30px;
 }
 
+footer .email-link a {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+footer .social-link a {
+  color: var(--branding-color);
+  padding: 10px 19px;
+  margin: 20px;
+  font-size: 30px;
+  background: #e6f8f9;
+  border-radius: 50%;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
