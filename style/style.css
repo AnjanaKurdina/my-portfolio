@@ -187,6 +187,12 @@ footer .social-link a:hover {
   background: var(--branding-color);
 }
 
+.coder {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-size: 15px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
