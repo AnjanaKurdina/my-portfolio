@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Anjana Kurdina</title>
+    <meta
+      name="description"
+      content="About Anjana Kurdina, an inspiring front-end developer currently taking SheCodes
+            courses to learn and develop my coding skills."
+    />
+    <title>Learn more about Anjana Kurdina</title>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -41,7 +46,9 @@
   <body>
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand my-name" href="/">Anjana Kurdina</a>
+        <a class="navbar-brand my-name" href="/" title="Homepage"
+          >Anjana Kurdina</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -56,18 +63,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/"
-                >Home <span class="sr-only">(current)</span></a
+              <a class="nav-link" href="/" title="Homepage"
+                >Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/about.html" title="About Anjana"
+                >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html">About</a>
+              <a class="nav-link" href="/work.html" title="Anjana's Work"
+                >Work</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/work.html">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact Anjana"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -84,7 +97,12 @@
             my portfolio of projects.
           </p>
           <div>
-            <a href="/work.html" class="btn btn-branding mb-5">My Projects</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding mb-5"
+              title="My Portfolio"
+              >My Projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
@@ -102,21 +120,30 @@
           <a href="mailto:anjana.kurdina@gmail.com">anjana.kurdina@gmail.com</a>
         </div>
         <div class="social-link d-flex justify-content-center mb-5">
-          <a href="https://www.linkedin.com/in/anjana-kurdina" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/anjana-kurdina"
+            title="LinkedIn Profile"
+            target="_blank"
             ><i class="fab fa-linkedin"></i
           ></a>
-          <a href="https://twitter.com/ThePinkSneaker" target="_blank"
+          <a
+            href="https://twitter.com/ThePinkSneaker"
+            title="Twitter Profile"
+            target="_blank"
             ><i class="fab fa-twitter"></i
           ></a>
-          <a href="https://github.com/AnjanaKurdina" target="_blank"
+          <a
+            href="https://github.com/AnjanaKurdina"
+            title="GitHub"
+            target="_blank"
             ><i class="fab fa-github"></i
           ></a>
         </div>
-        <div class="coder">
+        <p class="coder">
           This site was coded by Anjana Kurdina, open-source code on
-          <a href="https://github.com/">Github</a> and hosted by
-          <a href="https://www.netlify.com/">Netlify</a>.
-        </div>
+          <a href="https://github.com/AnjanaKurdina/my-portfolio">GitHub</a> and
+          hosted by <a href="https://www.netlify.com/">Netlify</a>.
+        </p>
       </footer>
     </div>
   </body>
