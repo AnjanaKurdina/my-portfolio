@@ -50,6 +50,10 @@ h2 {
   font-family: var(--primary-font-family);
 }
 
+.project-info {
+  align-self: center;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -227,5 +231,9 @@ footer .social-link a:hover {
 
   .content-container h1 {
     font-size: 44px;
+  }
+
+  .project-info {
+    padding: 0 20px;
   }
 }
